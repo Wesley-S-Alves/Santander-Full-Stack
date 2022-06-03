@@ -1,0 +1,47 @@
+
+.container{
+    border: 1px solid black;
+    padding:5px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+}
+
+.item {
+    padding: 5px;
+    background-color: blue;
+    color:white;
+    margin:5px;
+    text-align:center;
+    font-size: 18px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.start{
+    justify-content:start;
+}
+
+.end {
+    justify-content:end;
+}
+
+.space-around{
+    justify-content:space-around;
+}
+
+.space-between{
+    justify-content:space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.column{
+    flex-direction: column;
+    height:400px
+}
+
