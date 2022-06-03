@@ -1,0 +1,27 @@
+.container{
+    max-width: 450px;
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.item{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    flex:1;
+    margin: 5px;
+}
+
+.o1{
+    order:1;
+}
+
+.o2{
+    order:2;
+}
+
+.o3{
+    order:3
+}
