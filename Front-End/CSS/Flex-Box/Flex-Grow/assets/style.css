@@ -1,0 +1,32 @@
+.container{
+    display:flex;
+    border: 1px solid black;
+    margin: 0;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.item{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    margin: 5px;
+    font-size:20px;
+    padding: 10px;
+}
+
+.fg0{
+    flex-grow: 0;
+}
+
+.fg1{
+    flex-grow: 1;
+}
+
+.fg2{
+    flex-grow: 2;
+}
+
+.fg3{
+    flex-grow: 3;
+}
