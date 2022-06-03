@@ -1,0 +1,33 @@
+.container{
+    max-width: 300px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item{
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.b-auto{
+    flex-basis:auto;
+}
+
+.b-0{
+    flex-basis:0;
+}
+
+
+.fg1{
+    flex-grow: 1;
+}
+
+.fg2{
+    flex-grow: 2
+}
+
+.w100{
+    flex-basis:100px
+}
