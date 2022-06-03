@@ -1,0 +1,41 @@
+.container{
+    max-width: 450px;
+    border: 1px solid black;
+    display: flex;
+    padding:15px;
+}
+
+.item{
+    background-color: black;
+    margin:5px;
+    color:white;
+    text-align: center;
+    flex:1;
+    width: 40px;
+    height: auto
+}
+
+.center {
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.flex-start{
+    align-items:flex-start;
+}
+
+.flex-end{
+    align-items:flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.column{
+    flex-direction: column;
+    max-width:auto;
+}
