@@ -1,0 +1,39 @@
+.container{
+    max-width:350px;
+    border: 1px solid black;
+    margin-bottom:10px;
+    display: flex;
+    min-height:200px  
+}
+
+.align-center{
+    align-items:center;
+}
+
+.item{
+    background-color:blue;
+    color: white;
+    text-align:center;
+    font-size:24px;
+    margin: 5px;
+}
+
+.self-start{
+    align-self: flex-start;
+}
+
+.self-end{
+    align-self:flex-end;
+}
+
+.self-center{
+    align-self:center;
+}
+
+.self-stretch{
+    align-self:stretch;
+}
+
+.self-baseline{
+    align-self: baseline;
+}
