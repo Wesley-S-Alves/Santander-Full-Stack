@@ -17,7 +17,6 @@
     display: flex;
     list-style: none;
     max-width: 600px;
-    border: 1px solid black;
     /*justify-content:space-evenly;*/
 }
 
@@ -34,15 +33,29 @@
 }
 
 .row {
-    flex-direction:row;
+    flex-direction:row;/*organiza por linha em ordem crescente*/
 }
 .row-reverse{
-    flex-direction:row-reverse;
+    flex-direction:row-reverse; /* organiza por linha em ordem decrescente*/
+    flex-wrap: wrap; /*quebra da linha*/
+    /* flex-flow pode ser usado para ambos*/
+
 }
 .row-reverse li{
     background:red;
 }
 
 .column{
-    flex-direction:column;
+    flex-direction:column; /* vertical e em ordem crescente */
+    float: right;
+
+}
+
+.column-reverse li{
+    background-color: orange;
+    
+}
+
+.column-reverse{
+    flex-direction:column-reverse; /* vertical e em ordem decrescente*/
 }
