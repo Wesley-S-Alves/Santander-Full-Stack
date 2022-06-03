@@ -1,0 +1,40 @@
+.container{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.item{
+    background-color: blue;
+    margin: 5px;
+    padding:0 5px;
+    color: white;
+    flex:1;
+    text-align: center
+
+
+}
+
+.stretch{
+    align-content: stretch;
+}
+
+.center{
+    align-content:center;
+}
+
+.space-around{
+    align-content:space-around
+}
+
+.space-between{
+    align-content:space-between    
+}
+
+.space-evenly{
+    align-content:space-evenly;
+}
