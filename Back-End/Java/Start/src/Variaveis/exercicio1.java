@@ -8,9 +8,9 @@ public class exercicio1 {
      */
     public static void main(String[] args) {
         int i;
-        int i; // erro de compilação, variável 'i' iniciada duas vezes
+        //int i; // erro de compilação, variável 'i' iniciada duas vezes
         int I; // Java é Case-sensitive;
-        int 1a;// números não podem ser utilizados no inicio do nome de uma variável;
+        //int 1a;// números não podem ser utilizados no inicio do nome de uma variável;
         int _1a;// o '_' pode ser utilizado, mas não é uma boa prática
         final int NUMERO_TENTATIVAS = 5; // para declaração de uma constante, a palavra
         // reservada final deve ser utilizada e o nome escrito em letras maisculas e com
