@@ -1,3 +1,5 @@
+package Variaveis;
+
 public class exercicio1 {
     /**
      * Classe para o primeiro exercicio de Java.
