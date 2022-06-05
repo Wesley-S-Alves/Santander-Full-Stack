@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
-    //nomeIdade();
-    //nota();
-    //media();
-    // parOuImpar();
-    //tabuada();
+        nomeIdade();
+        nota();
+        media();
+        parOuImpar();
+        tabuada();
         fatorial();
     }
 
