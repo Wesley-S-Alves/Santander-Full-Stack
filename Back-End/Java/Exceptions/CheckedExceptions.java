@@ -1,9 +1,18 @@
+import javax.swing.*;
 import java.io.*;
 
 public class CheckedExceptions {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String nomeArquivo = "romances-blake-crouch.txt";
-        imprimirArquivoConsole(nomeArquivo);// tratar exception
+
+        try{
+            imprimirArquivoConsole(nomeArquivo);// tratar exception
+        } catch (FileNotFoundException e) {
+            JOptionPane.showMessageDialog(null,"Erro ao abrir o arquivo: " + e.getMessage());
+        }catch (IOException e){
+            JOptionPane.showMessageDialog(null, e.getMessage());
+
+        }
         System.out.println("Dando certo ou não, o programa irá continuar.");
 
     }
