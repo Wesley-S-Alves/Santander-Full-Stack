@@ -16,6 +16,23 @@ public class Carro {
 
     }
 
+    public Carro(String modelo, String marca,
+                 String cor, String ano, String consumo,
+                 String tamanhoptMalas, String cambio,
+                 Integer qtdPortas, Double tanque,
+                 Double velocidade) {
+        this.modelo = modelo;
+        this.marca = marca;
+        this.cor = cor;
+        this.ano = ano;
+        this.consumo = consumo;
+        this.tamanhoptMalas = tamanhoptMalas;
+        this.cambio = cambio;
+        this.qtdPortas = qtdPortas;
+        this.tanque = tanque;
+        this.velocidade = velocidade;
+    }
+
     public String getModelo() {
         return modelo;
     }
