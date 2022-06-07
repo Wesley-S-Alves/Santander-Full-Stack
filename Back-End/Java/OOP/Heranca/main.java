@@ -9,5 +9,15 @@ public class main {
         System.out.printf("Carro acelera: %s", carro.acelerar());
         System.out.printf(" Moto acelera: %s", moto.acelerar());
         System.out.println(" Caminhão acelera: " + caminhao.acelerar());
+        /*
+        DownCast deve ser evitado ao trabalhar com objetos complexos.
+        ele é mais funcional em tipos primitivos >> Ex. double pra int
+         */
+        //Carro carroDowncast = (Carro) new Automovel(); //Downcast
+
+        Automovel carroUpCast = new Carro();// UpCast
+
+        System.out.println("UpCast: " + carroUpCast.acelerar());
+       // System.out.println("DownCast: " + carroDowncast.acelerar());
     }
 }
